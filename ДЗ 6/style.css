@@ -1,0 +1,30 @@
+
+.black {
+    font-family: Arial;
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 60px;
+    display: inline-block;
+}
+.white {
+    font-family: Arial;
+    background-color: white;
+    color: black;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 60px;
+    display: inline-block;
+}
+.noChess{
+    font-family: sans-serif;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 60px;
+    display: inline-block;
+}

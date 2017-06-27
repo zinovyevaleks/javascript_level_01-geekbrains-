@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Урок 3</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <script src="functions.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>Урок 3. Домашнее задание <small>из методички 4</small></h1>
+      </div>
+
+      <h2>Задание 1</h2>
+      <p class="lead">Напишите функцию min, принимающую два аргумента, и возвращающую минимальный из них.</p>
+
+      <h3>Ответ</h3>
+      <pre>
+        function min(a, b) {
+          if (a < b) {
+            return a;
+          } else {
+            return b;
+          }
+        }
+      </pre>
+
+    <p>Результат можно посмотреть в консоли.</p>
+
+    <h2>Задание 2</h2>
+    <p class="lead">Напишите функцию countBs, которая принимает строку в качестве аргумента,<br> и возвращает количество символов “B”, содержащихся в строке.</p>
+    <h3>Ответ</h3>
+        <pre>
+          function countBs(str) {
+          var count = 0;
+              for (var i = 0; i < str.length; i++) {
+                  if (str.charAt(i) == "B") {
+                      count++;
+                  }
+              }
+              console.log(count);
+          }
+
+          countBs('sdfBasdfB;fgo;iggB')
+        </pre>
+
+        <h2>Задание 3</h2>
+        <p class="lead">Напишите ункцию countChar, которая работает примерно как countBs, <br>только принимает второй параметр — символ, который мы будем искать в строке.</p>
+        <h3>Ответ</h3>
+            <pre>
+
+
+    </div>
+  </body>
+</html>
